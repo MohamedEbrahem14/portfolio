@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Module</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">MOHAMED EBRAHEM</div> 
+    <div class="nav-links">
+        <a href="../index.html">Back to Portofolio</a>
+    </div>
+</nav>
+<section class="section">
+    <h2>Photos</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image1.jpg" alt="Image 1" onclick="openFullScreen(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Image 2" onclick="openFullScreen(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Image 3" onclick="openFullScreen(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="image4.jpg" alt="Image 4" onclick="openFullScreen(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="image5.jpg" alt="Image 5" onclick="openFullScreen(this)">
+        </div>
+        <div class="gallery-item"controls>
+            <img src="image6.jpg" alt="Image 6" onclick="openFullScreen(this)">
+        </div>
+        <div class="gallery-item"controls >
+            <img src="image7.jpg" alt="Image 7" onclick="openFullScreen(this)">
+        </div>
+    </div>
+</section>
+<section class="section">
+<h2>Videos</h2>
+<!-- Adding video -->
+        <video width="600" controls>
+          <source src="gym.mp4" type="video/mp4">
+          <source src="gym.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+        </video>
+        
+</section>
+    <!-- Full Screen Modal -->
+    <div id="fullScreenModal" class="modal">
+        <span class="close" onclick="closeFullScreen()">&times;</span>
+        <img class="modal-content" id="fullScreenImage">
+        <div class="zoom-controls">
+        <button onclick="zoomIn()">+</button>
+        <button onclick="zoomOut()">-</button>
+        </div>
+        <div class="nav-controls">
+          <button class="nav-button prev" onclick="prevImage()">&lt;</button>
+          <button class="nav-button next" onclick="nextImage()">&gt;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
