@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Mohamed Ebrahem · Odoo Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Mohamed Ebrahem, Junior Odoo Developer. Explore projects, skills, and contact information.">
+    <link rel="canonical" href="/">
+    <meta name="theme-color" content="#1e1e2f">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mohamed Ebrahem · Odoo Developer Portfolio">
+    <meta property="og:description" content="Explore Odoo modules, skills, and ways to get in touch.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="images.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mohamed Ebrahem · Odoo Developer Portfolio">
+    <meta name="twitter:description" content="Explore Odoo modules, skills, and ways to get in touch.">
+    <meta name="twitter:image" content="images.png">
+
+    <link rel="icon" href="images.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,21 +29,22 @@
 
 <!-- Navbar -->
 <nav class="navbar">
-    <div class="logo">MOHAMED EBRAHEM</div> 
-<button1>
-  <span>WELCOME</span>
-</button1>
-    <div class="nav-links">
+    <div class="logo">MOHAMED EBRAHEM</div>
+    <button class="button1" type="button"><span>WELCOME</span></button>
+    <div class="nav-links" role="navigation" aria-label="Primary">
         <a href="#about">ABOUT</a>
         <a href="#portfolio">PORTFOLIO</a>
         <a href="#skills">SKILLS</a>
         <a href="#contact">CONTACT</a>
     </div>
-    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <div style="display:flex; align-items:center; gap:12px;">
+        <button id="themeToggle" class="btn-github" type="button" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+        <button class="menu-icon" type="button" aria-label="Toggle menu" onclick="toggleMenu()">&#9776;</button>
+    </div>
 </nav>
 
 <!-- Header -->
-<header>
+<header role="banner">
     <h1>MY PORTFOLIO</h1>
     <p>Welcome to my portfolio. Explore my work and get in touch!</p>
 </header>
@@ -50,81 +69,7 @@
 <!-- Portfolio Section -->
 <section id="portfolio" class="section">
     <h2>Portfolio</h2>
-    <div class="projects">
-        <div class="project-card">
-            <img src="images.png" alt="Real Estate Module">
-            <h3>Real Estate Module</h3>
-            <p>A special module I worked on during my Odoo development course.</p>
-            
-            <a  
-<button class="btn-github" href="https://github.com/MohamedEbrahem14/my_projects/tree/main/custom_addons/app_one" target="_blank">
-  <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M7.99992 1.33331C7.12444 1.33331 6.25753 1.50575 5.4487 1.84078C4.63986 2.17581 3.90493 2.66688 3.28587 3.28593C2.03563 4.53618 1.33325 6.23187 1.33325 7.99998C1.33325 10.9466 3.24659 13.4466 5.89325 14.3333C6.22659 14.3866 6.33325 14.18 6.33325 14C6.33325 13.8466 6.33325 13.4266 6.33325 12.8733C4.48659 13.2733 4.09325 11.98 4.09325 11.98C3.78659 11.2066 3.35325 11 3.35325 11C2.74659 10.5866 3.39992 10.6 3.39992 10.6C4.06659 10.6466 4.41992 11.2866 4.41992 11.2866C4.99992 12.3 5.97992 12 6.35992 11.84C6.41992 11.4066 6.59325 11.1133 6.77992 10.9466C5.29992 10.78 3.74659 10.2066 3.74659 7.66665C3.74659 6.92665 3.99992 6.33331 4.43325 5.85998C4.36659 5.69331 4.13325 4.99998 4.49992 4.09998C4.49992 4.09998 5.05992 3.91998 6.33325 4.77998C6.85992 4.63331 7.43325 4.55998 7.99992 4.55998C8.56659 4.55998 9.13992 4.63331 9.66659 4.77998C10.9399 3.91998 11.4999 4.09998 11.4999 4.09998C11.8666 4.99998 11.6333 5.69331 11.5666 5.85998C11.9999 6.33331 12.2533 6.92665 12.2533 7.66665C12.2533 10.2133 10.6933 10.7733 9.20659 10.94C9.44659 11.1466 9.66659 11.5533 9.66659 12.1733C9.66659 13.0666 9.66659 13.7866 9.66659 14C9.66659 14.18 9.77325 14.3933 10.1133 14.3333C12.7599 13.44 14.6666 10.9466 14.6666 7.99998C14.6666 7.1245 14.4941 6.25759 14.1591 5.44876C13.8241 4.63992 13.333 3.90499 12.714 3.28593C12.0949 2.66688 11.36 2.17581 10.5511 1.84078C9.7423 1.50575 8.8754 1.33331 7.99992 1.33331V1.33331Z"
-      fill="currentcolor"
-    ></path>
-  </svg>
-  <span>View on Github</span>
-</button>
- </a>
- <a
-<button class="btn-github" href="real_estate/index.html" target="_blank">
-    <span>View Module</span>
-  </a>
-</button>
-</a>
-        </div>
-        <div class="project-card">
-            <img src="todo.png" alt="To-Do List Module">
-            <h3>To-Do List Module</h3>
-            <p>A special module I worked on during my Odoo development course.</p>
-            <a
-<button class="btn-github" href="todo/index.html" target="_blank">
-    <span>View Module</span>
-  </a>
-        </div>   
-        <div class="project-card">
-            <img src="gym.png" alt="Gym Module">
-            <h3>Gym Module</h3>
-            <p>A special module I worked on during my Odoo development course.</p>
-             <a  
-<button class="btn-github" href="https://github.com/MohamedEbrahem14/my_projects/tree/main/custom_addons/gym" target="_blank">
-  <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M7.99992 1.33331C7.12444 1.33331 6.25753 1.50575 5.4487 1.84078C4.63986 2.17581 3.90493 2.66688 3.28587 3.28593C2.03563 4.53618 1.33325 6.23187 1.33325 7.99998C1.33325 10.9466 3.24659 13.4466 5.89325 14.3333C6.22659 14.3866 6.33325 14.18 6.33325 14C6.33325 13.8466 6.33325 13.4266 6.33325 12.8733C4.48659 13.2733 4.09325 11.98 4.09325 11.98C3.78659 11.2066 3.35325 11 3.35325 11C2.74659 10.5866 3.39992 10.6 3.39992 10.6C4.06659 10.6466 4.41992 11.2866 4.41992 11.2866C4.99992 12.3 5.97992 12 6.35992 11.84C6.41992 11.4066 6.59325 11.1133 6.77992 10.9466C5.29992 10.78 3.74659 10.2066 3.74659 7.66665C3.74659 6.92665 3.99992 6.33331 4.43325 5.85998C4.36659 5.69331 4.13325 4.99998 4.49992 4.09998C4.49992 4.09998 5.05992 3.91998 6.33325 4.77998C6.85992 4.63331 7.43325 4.55998 7.99992 4.55998C8.56659 4.55998 9.13992 4.63331 9.66659 4.77998C10.9399 3.91998 11.4999 4.09998 11.4999 4.09998C11.8666 4.99998 11.6333 5.69331 11.5666 5.85998C11.9999 6.33331 12.2533 6.92665 12.2533 7.66665C12.2533 10.2133 10.6933 10.7733 9.20659 10.94C9.44659 11.1466 9.66659 11.5533 9.66659 12.1733C9.66659 13.0666 9.66659 13.7866 9.66659 14C9.66659 14.18 9.77325 14.3933 10.1133 14.3333C12.7599 13.44 14.6666 10.9466 14.6666 7.99998C14.6666 7.1245 14.4941 6.25759 14.1591 5.44876C13.8241 4.63992 13.333 3.90499 12.714 3.28593C12.0949 2.66688 11.36 2.17581 10.5511 1.84078C9.7423 1.50575 8.8754 1.33331 7.99992 1.33331V1.33331Z"
-      fill="currentcolor"
-    ></path>
-  </svg>
-  <span>View on Github</span>
-</button>
- </a>
- <a
-<button class="btn-github" href="gym/index.html" target="_blank">
-    <span>View Module</span>
-  </a>
-        </div>
-        <div class="project-card">
-          <img src="Hospital.png" alt="Hospital Module">
-          <h3>Hospital Module</h3>
-          <p>A special module I worked on during my Odoo development course.</p>
-<a
-<button class="btn-github" href="hospital/index.html" target="_blank">
-    <span>View Module</span>
-  </a>
-      </div>
-    </div>
+    <div id="projectsGrid" class="projects"></div>
 </section>
 
 <section class="section" id="skills">
