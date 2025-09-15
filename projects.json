@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Real Estate Module",
+    "description": "Odoo module developed during training; listings, customers, and workflows.",
+    "image": "images.png",
+    "github": "https://github.com/MohamedEbrahem14/my_projects/tree/main/custom_addons/app_one",
+    "link": "real_estate/index.html"
+  },
+  {
+    "title": "To-Do List Module",
+    "description": "Simple productivity module with tasks, states, and progress.",
+    "image": "todo.png",
+    "link": "todo/index.html"
+  },
+  {
+    "title": "Gym Module",
+    "description": "Memberships, classes scheduling, and trainer assignments in Odoo.",
+    "image": "gym.png",
+    "github": "https://github.com/MohamedEbrahem14/my_projects/tree/main/custom_addons/gym",
+    "link": "gym/index.html"
+  },
+  {
+    "title": "Hospital Module",
+    "description": "Patients, appointments, and billing workflows.",
+    "image": "Hospital.png",
+    "link": "hospital/index.html"
+  }
+]
