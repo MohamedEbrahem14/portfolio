@@ -1,28 +1,56 @@
 [
   {
-    "title": "Real Estate Module",
-    "description": "Odoo module developed during training; listings, customers, and workflows.",
+    "title": "Real Estate Management System",
+    "description": "Comprehensive Odoo module for real estate management with property listings, customer management, and automated workflows. Features include property search, client tracking, and commission calculations.",
     "image": "images.png",
+    "category": "odoo",
+    "technologies": ["Python", "XML", "PostgreSQL", "Odoo"],
     "github": "https://github.com/MohamedEbrahem14/my_projects/tree/main/custom_addons/app_one",
-    "link": "real_estate/index.html"
+    "link": "real_estate/index.html",
+    "features": ["Property Listings", "Customer Management", "Commission Tracking", "Automated Workflows"]
   },
   {
-    "title": "To-Do List Module",
-    "description": "Simple productivity module with tasks, states, and progress.",
+    "title": "Task Management Module",
+    "description": "Advanced productivity module with task management, progress tracking, and team collaboration features. Includes priority settings, deadline management, and progress reporting.",
     "image": "todo.png",
-    "link": "todo/index.html"
+    "category": "odoo",
+    "technologies": ["Python", "XML", "JavaScript", "Odoo"],
+    "link": "todo/index.html",
+    "features": ["Task Management", "Progress Tracking", "Team Collaboration", "Priority Settings"]
   },
   {
-    "title": "Gym Module",
-    "description": "Memberships, classes scheduling, and trainer assignments in Odoo.",
+    "title": "Gym Management System",
+    "description": "Complete gym management solution with membership tracking, class scheduling, trainer assignments, and payment processing. Streamlines gym operations and member experience.",
     "image": "gym.png",
+    "category": "odoo",
+    "technologies": ["Python", "XML", "PostgreSQL", "Odoo"],
     "github": "https://github.com/MohamedEbrahem14/my_projects/tree/main/custom_addons/gym",
-    "link": "gym/index.html"
+    "link": "gym/index.html",
+    "features": ["Membership Management", "Class Scheduling", "Trainer Assignment", "Payment Processing"]
   },
   {
-    "title": "Hospital Module",
-    "description": "Patients, appointments, and billing workflows.",
+    "title": "Hospital Management System",
+    "description": "Comprehensive hospital management module with patient records, appointment scheduling, billing workflows, and medical staff management. Ensures efficient healthcare operations.",
     "image": "Hospital.png",
-    "link": "hospital/index.html"
+    "category": "odoo",
+    "technologies": ["Python", "XML", "PostgreSQL", "Odoo"],
+    "link": "hospital/index.html",
+    "features": ["Patient Records", "Appointment Scheduling", "Billing Management", "Staff Management"]
+  },
+  {
+    "title": "E-Commerce Web Application",
+    "description": "Modern e-commerce platform built with React and Node.js. Features include product catalog, shopping cart, user authentication, and payment integration.",
+    "image": "images.png",
+    "category": "web",
+    "technologies": ["React", "Node.js", "MongoDB", "JavaScript"],
+    "features": ["Product Catalog", "Shopping Cart", "User Authentication", "Payment Integration"]
+  },
+  {
+    "title": "Mobile Fitness App",
+    "description": "Cross-platform mobile application for fitness tracking built with Flutter. Includes workout plans, progress tracking, and social features.",
+    "image": "images.png",
+    "category": "mobile",
+    "technologies": ["Flutter", "Dart", "Firebase", "REST API"],
+    "features": ["Workout Plans", "Progress Tracking", "Social Features", "Offline Support"]
   }
 ]

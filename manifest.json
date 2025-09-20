@@ -1,0 +1,27 @@
+{
+    "name": "Mohamed Ebrahem - Senior Odoo Developer",
+    "short_name": "Mohamed Ebrahem",
+    "description": "Portfolio of Mohamed Ebrahem, Senior Odoo Developer & Full-Stack Engineer specializing in custom modules, ERP solutions, and full-stack applications.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "images.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["portfolio", "developer", "odoo", "business"],
+    "lang": "en",
+    "dir": "ltr"
+}
